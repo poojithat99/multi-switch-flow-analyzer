@@ -109,23 +109,23 @@ h1 ping h2 -c 1
 
 ### Screenshot 1 — POX Controller (all 3 switches connected)
 All 3 switches successfully connected to the POX controller via OpenFlow.
-![Terminal 1](screenshots/Terminal_1.png)
+![Terminal 1](Terminal_1.png)
 
 ### Screenshot 2 — Scenario 1: pingall result
 All 6 hosts communicating across all 3 switches with 0% packet loss.
-![Terminal 2 Scenario 1](screenshots/Terminal_2.png)
+![Terminal 2 Scenario 1](Terminal_2.png)
 
 ### Screenshot 3 — Scenario 1: Flow Analyzer after pingall
 72 active flow rules detected across all switches, all marked [ACT].
-![Terminal 3 Scenario 1](screenshots/terminal_3.png)
+![Terminal 3 Scenario 1](terminal_3.png)
 
 ### Screenshot 4 — Scenario 2: h1 ping h2
 Single host pair communication with 0% packet loss.
-![Terminal 2 Scenario 2](screenshots/Terminal_2_2_.png)
+![Terminal 2 Scenario 2](Terminal_2_2_.png)
 
 ### Screenshot 5 — Scenario 2: Flow Analyzer after h1 ping h2
 Only s1 shows 6 active rules for h1↔h2. s2 and s3 rules expired (unused).
-![Terminal 3 Scenario 2](screenshots/Terminal3_2_.png)
+![Terminal 3 Scenario 2](Terminal3_2_.png)
 
 ---
 
